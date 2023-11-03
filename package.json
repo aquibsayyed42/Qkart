@@ -30,8 +30,11 @@
   "jest": {
     "resetMocks": false
   },
-  "scripts": {
-    "start": "cd backend && node index.js",
+ "scripts": {
+    "start": "PORT=8081 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
