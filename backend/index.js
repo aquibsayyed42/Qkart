@@ -17,7 +17,7 @@ app.use('/api/v1/cart', cartRouter);
 app.use('/api/v1/user', userRouter);
 
 const port = process.env.PORT || config.port
-app.listen(port, () => {
+app.listen(8080, () => {
     console.log(`QKart Backend running at port ${port}`);
 });
 
