@@ -9,7 +9,7 @@ import { ThemeProvider } from "@mui/system";
 import theme from "./theme";
 
 export const config = {
-  endpoint: `https://qkart-frontend-o6oh.onrender.com/api/v1`,
+  endpoint: `https://qkart2.azurewebsites.net/api/v1`,
 };
 
 function App() {
